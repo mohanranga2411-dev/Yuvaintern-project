@@ -1,0 +1,28 @@
+ RUN  v2.1.9 /home/claude/kasavu-catalogue
+ ✓ src/test/flows.test.jsx > catalogue > shows a loading state then products and a count 743ms
+ ✓ src/test/flows.test.jsx > catalogue > searches with debounce and shows the empty state, then clears it 540ms
+ ✓ src/test/flows.test.jsx > catalogue > filters by category and sorts by price
+ ✓ src/test/flows.test.jsx > catalogue > paginates
+ ✓ src/test/flows.test.jsx > catalogue > shows an error with retry
+ ✓ src/test/flows.test.jsx > catalogue > handles a missing image and a very long name
+ ✓ src/test/flows.test.jsx > detail, size guide and wishlist > opens the size guide and recommends a size 373ms
+ ✓ src/test/flows.test.jsx > detail, size guide and wishlist > saves a product with a size, shows it on the wishlist, and removes it
+ ✓ src/test/flows.test.jsx > detail, size guide and wishlist > shows the wishlist empty state
+ ✓ src/test/flows.test.jsx > detail, size guide and wishlist > shows not found for an unknown product
+ ✓ src/test/flows.test.jsx > profile form > blocks Next with accessible errors, then completes and saves 881ms
+ ✓ src/test/flows.test.jsx > admin > lists products and updates stock 396ms
+ ✓ src/test/units.test.jsx > wishlist reducer > adds, sizes and removes items
+ ✓ src/test/units.test.jsx > validation > flags bad personal details
+ ✓ src/test/units.test.jsx > validation > accepts a complete profile
+ ✓ src/test/units.test.jsx > validation > rejects out-of-range measurements
+ ✓ src/test/units.test.jsx > size recommendation > matches the right row
+ ✓ src/test/units.test.jsx > size recommendation > rounds up on a gap tie
+ ✓ src/test/units.test.jsx > size recommendation > returns null when far outside the chart
+ ✓ src/test/units.test.jsx > Pagination > builds a windowed list with gaps
+ ✓ src/test/units.test.jsx > Pagination > calls onChange and marks current page
+ ✓ src/test/units.test.jsx > Pagination > renders nothing for a single page
+ ✓ src/test/units.test.jsx > mock API > seeds edge cases and filters
+ Test Files  2 passed (2)
+      Tests  23 passed (23)
+   Start at  11:55:52
+   Duration  5.74s (transform 336ms, setup 497ms, collect 239ms, tests 3.80s, environment 808ms, prepare 106ms)
